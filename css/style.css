@@ -1,0 +1,743 @@
+
+/*====================
+     header part end
+  ====================*/
+
+
+.header{
+    background-color: #282828;
+    padding: 16px 0px;
+}
+
+
+.header .box{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.header .box .left{
+    display: flex;
+    gap: 27px;
+    
+}
+
+.header .box .left .br{
+    color: white;
+    border-right: 2px solid #5C6A92;
+    padding-right: 20px;
+}
+
+.header .box .left h6{
+    color: white;
+    
+}
+
+
+.header .box .right{
+    display: flex;
+    gap: 19px;
+    
+    
+}
+
+.header .box .right .fa-brands{
+    color: white;
+    
+}
+
+
+/*====================
+     header part end
+  ====================*/
+
+
+
+  /*====================
+     navber part start
+  ====================*/
+
+.navbar{
+    background-color: #F40404 !important;
+    padding: 10px 0px;
+
+}
+
+
+
+.navbar .nav-link{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.navbar .btnn a{
+
+    text-decoration: none;
+    color: white;
+    padding: 8px 22px;
+    border: 2px solid white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.navbar .navbar-nav{
+    padding-right: 72px;
+    column-gap: 72px;
+}
+
+  /*====================
+     navber part end
+  ====================*/
+
+
+/*====================
+     banner part start
+  ====================*/
+
+  .banner-part{
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .banner-part h1{
+    color: white;
+    font-size: 64px; 
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    padding: 257px 0px 31px 0px;
+    width: 842px;
+    line-height: 100px;
+
+ }
+
+   .banner-part .btnn a{
+    color: white;
+    padding: 13px 40px;
+    background-color: #F40404;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    margin-bottom: 258px;
+    display: inline-block;
+
+   }
+
+
+
+
+
+  /*====================
+     banner part end
+  ====================*/
+
+
+  /*====================
+     country part start
+  ====================*/
+
+  .country-part{
+    padding: 78px;
+  }
+
+  .country-part h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    font-family: "Poppins", sans-serif;
+    width: 289px;
+
+}
+
+
+  .country-part p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    width: 651px;
+    padding-top: 83px;
+    padding-bottom: 100px;
+
+}
+
+  /*====================
+     country part end
+  ====================*/
+
+
+/*====================
+     cer part start
+  ====================*/
+  .cer-part .box{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+  }
+
+
+  /*====================
+     cer part end
+  ====================*/
+
+
+  
+  /*====================
+     service part start
+  ====================*/
+  .service-part{
+    padding-top: 134px;
+    padding-bottom: 142px;
+
+  }
+  .service-part .box .left-part h2{
+    color: black;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+
+  }
+
+  .service-part .box .left-part p{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    width: 405px;
+
+  }
+
+
+    .service-part .box{
+        display: flex;
+        position: relative;
+    }
+
+     .service-part .right{
+        position: absolute;
+        top: -55%;
+        left: 50%;
+    }
+
+
+      .service-part .right .over{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; 
+        background-color: #00000099;
+        padding: 147px 0px 0px 116px;
+    }
+
+    .service-part .right .over h2{
+      font-size: 36px;
+      font-weight: 700;
+      font-family: "Poppins", sans-serif;
+      color: white;
+
+
+
+}
+
+ .service-part .right .over .btnn a{
+    color: white;
+    padding: 13px 40px;
+    background-color: #F40404;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    margin-bottom: 258px;
+    display: inline-block;
+    text-decoration: none;
+
+ }
+
+ 
+ 
+
+
+
+
+
+
+
+    
+  /*====================
+     service part end
+  ====================*/
+
+
+
+ /*====================
+     company part start
+  ====================*/
+
+.company{
+    padding: 100px;
+    background-color: #F0F0F0;
+}
+.company .left{
+    background-color: #F40404;
+    padding: 100px 77px 100px 74px ;
+}
+
+.company .left h2{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+
+}
+    
+
+.company .right{
+    background-image: url(../img/company.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.company .right .btnn a{
+  padding: 14px 30px;
+  display: inline-block;
+  color: red;
+  background-color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+
+  
+  
+  
+
+}
+
+
+ /*====================
+     company part end
+  ====================*/
+
+
+
+  /*====================
+     brand part start
+  ====================*/
+
+  .brand-part .box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 134px;
+    padding-bottom: 137px;
+  }
+
+
+  .brand-part .box h3{
+    font-size: 36px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+
+  
+  }
+
+   .brand-part .box h4{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+
+
+  
+  }
+
+
+
+
+  /*====================
+     brand part end
+  ====================*/
+
+
+
+  /*====================
+     blog part start
+  ====================*/
+  .blog-part{
+    padding-top: 110px;
+    padding-bottom: 162px;
+    background-color: #F0F0F0;
+  }
+
+
+  .blog-part .box{
+    display: flex;
+    
+    justify-content: space-between;
+    
+  }
+
+
+  .blog-part .box .img1{
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+  .blog-part .box .img1:hover .overly{
+    left: 0;
+  }
+
+
+  
+  .blog-part .box .img1 .overly{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #00000099;
+    transition: 0.5s;
+  }
+
+
+  .blog-part .box .img1 .overly h4{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    width: 300px;
+    padding: 75px 0px 52px 46px;
+    color: white;
+    line-height: 30px;
+
+  }
+
+  .blog-part .box .img1 .overly .btnn1 a{
+    margin-left: 46px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 22px;
+    background-color: #FFFFFF80;
+  }
+
+
+  .blog-part .box .img2{
+    position: relative;
+    overflow: hidden;
+  }
+
+  .blog-part .box .img2 .overly{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #00000099;
+    transition: 0.5s;
+
+  }
+
+   .blog-part .box .img2:hover .overly{
+    left: 0;
+  }
+
+
+  .blog-part .box .img2 .overly h4{
+     font-size: 24px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    width: 300px;
+    padding: 75px 0px 52px 46px;
+    color: white;
+    line-height: 30px;
+
+  }
+
+
+   .blog-part .box .img2 .overly a{
+    margin-left: 46px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 22px;
+    background-color: #FFFFFF80;
+  }
+
+
+
+   .blog-part .box .img3{
+    position: relative;
+    overflow: hidden;
+  }
+
+  .blog-part .box .img3:hover .overly{
+    left: 0;
+  }
+
+  .blog-part .box .img3 .overly{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #00000099;
+    transition: 0.5s;
+
+  }
+   .blog-part .box .img3 .overly h4{
+     font-size: 24px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    width: 300px;
+    padding: 75px 0px 52px 46px;
+    color: white;
+    line-height: 30px;
+
+  }
+
+  .blog-part .box .img3 .overly a{
+   margin-left: 46px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 22px;
+    background-color: #FFFFFF80;
+  }
+  
+
+
+  .blog-part .btnn2 a{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    padding-top: 28px;
+
+  }
+
+
+  
+  /*====================
+     blog part end
+  ====================*/
+
+
+
+  /*====================
+      area part start
+  ====================*/
+
+  
+  .area-part{
+    background-color:  #F40404;
+    padding: 47px 0px;
+    border-bottom: 5px solid #FFB800;
+  }
+
+  .area-part h3{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+
+  }
+
+  .area-part .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .area-part .box .btnn a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 22px;
+    border: 2px solid white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  /*====================
+      area part end
+  ====================*/
+
+
+
+  
+  /*====================
+      footer part start
+  ====================*/
+  .fotter{
+    background-color: #1F1F1F;
+    padding: 150px 0px 170px 0px;
+  }
+
+  .fotter .box{
+    display: flex;
+    
+  }
+
+  .fotter .box .petroil-part p{
+    color: white;
+
+  }
+
+  .fotter .box .petroil-part img{
+    padding-bottom: 33px;
+  }
+
+   .fotter .box .petroil-part .icon{
+    display: flex;
+    color: #F40404;
+    column-gap: 12px;
+    font-size: 25px;
+    padding-top: 34px;
+   }
+
+
+    .fotter .box .list-part{
+      display: flex;
+      column-gap: 42px;
+      padding-left: 175px;
+      padding-top: 32px;
+    }
+
+    .fotter .box .list-part h3{
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: "Poppins", sans-serif;
+
+    }
+    .fotter .box .list-part ul{
+      list-style-type: none;
+      padding-left: 0px;
+      padding-top: 21px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      padding-right: 107px;
+      
+     
+    }
+    .fotter .box .list-part ul li{
+      color: white;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: "Poppins", sans-serif;
+      
+      
+    }
+
+   
+
+    .fotter .box .certificate .right-part{
+      display: flex;
+      column-gap: 10px;
+    }
+
+
+    .fotter .box .certificate h3{
+      color: white;
+       font-size: 16px;
+      font-weight: 700;
+      font-family: "Poppins", sans-serif;
+      padding-top: 30px;
+
+    }
+
+     .fotter .box .certificate .right-part .ios{
+      padding: 6px 12px 0px 9px;
+      background-color: white;
+      border-radius: 4px;
+      margin-top: 21px;
+     }
+
+     .fotter .box .certificate .right-part h3{
+      font-size: 24px;
+      font-weight: 700;
+      font-family: "Poppins", sans-serif;
+      color: #008AD8;
+      margin-bottom: 0px;
+      
+      
+    }
+
+     .fotter .box .certificate .right-part .ios h2{
+      font-size: 8px;
+      font-weight: 500;
+      font-family: "Poppins", sans-serif;
+      color: #008AD8;
+      margin-top: 0px;
+      
+      
+    }
+
+
+    
+     .fotter .box .certificate  .green{
+      padding: 6px 12px 0px 9px;
+      background-color: white;
+      border-radius: 4px;
+      margin-top: 21px;
+     }
+
+
+     
+     .fotter .box .certificate  .green h3{
+      font-size: 14px;
+      font-weight: 700;
+      font-family: "Poppins", sans-serif;
+      color: rgb(206, 2, 233);
+      margin-top: 0px;
+      padding: 10px;
+      
+      
+    }
+
+    .fotter .box .certificate  .green h3 span{
+      color:green;
+    }
+
+
+
+
+
+
+
+
+
+
+
+  /*====================
+      footer part end
+  ====================*/
+
+
+
+
+  /*====================
+      copy part start
+  ====================*/
+  .copy{
+    background-color: #282828;
+  }
+  .copy p{
+    padding: 42px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #6C6C6C;
+
+  }
