@@ -1,0 +1,72 @@
+@media (min-width:320px) and (max-width:575.99px){
+    .header .box {
+	    display: block;
+        text-align: center;
+    }	
+    .header .box .left {
+	display: block;
+    
+    }
+    .header .box .left .br {
+	color: white;
+	border-right: 2px solid #5C6A92;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border: none;
+    }
+
+    .header .box .right {
+	    display: flex;
+	    gap: 11px;
+	    justify-content: center;
+    }
+    /* *header part end */
+
+    .banner-part h1 {
+	font-size: 24px;
+	padding: 25px 0px 20px 0px;
+	width: 300px;
+	line-height: 30px;
+}
+
+     .banner-part .btnn a {
+	color: white;
+	padding: 9px 23px;
+	font-size: 14px;
+    margin-bottom: 20px;
+	
+}
+
+/*  */
+
+.country-part {
+	padding: 0px ;
+}
+
+
+.country-part h2 {
+	font-size: 34px;
+	font-weight: 600;
+	line-height: 42px;
+    width: 281px;
+}
+.country-part p {
+	font-size: 14px;
+	font-weight: 500;
+	font-family: "Poppins", sans-serif;
+	width: 296px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+
+/*  */
+
+
+.cer-part .box {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+    padding: 0px 20px;
+}
+}   
